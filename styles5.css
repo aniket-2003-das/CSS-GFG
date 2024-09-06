@@ -1,0 +1,46 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #60d037; /* Light green for the navigation background */
+    padding: 10px;
+    text-align: left;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #555; /* Darker color for links */
+}
+
+.navbar ul li a:hover {
+    color: #000; /* Black color on hover */
+}
+
+/* Main Content Styling */
+.main-content {
+    background-color: #69b12a; /* Bright green for the content background */
+    height: 200px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content h1 {
+    color: white;
+    font-size: 24px;
+}

@@ -1,0 +1,38 @@
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+th {
+    background-color: orange;
+}
+
+td:nth-child(even) {
+    background-color: yellow;
+}
+
+td:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+.submit-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: darkblue;
+}
